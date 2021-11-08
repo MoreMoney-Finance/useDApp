@@ -75,7 +75,7 @@ describe('Chain helpers', function () {
         chai_1.expect(chain_1.getExplorerAddressLink(address, src_1.ChainId.Moonriver)).to.eq('https://blockscout.moonriver.moonbeam.network/address/0xC7095A52C403ee3625Ce8B9ae8e2e46083b81987/transactions');
         chai_1.expect(chain_1.getExplorerAddressLink(address, src_1.ChainId.Palm)).to.eq('https://explorer.palm.io/address/0xC7095A52C403ee3625Ce8B9ae8e2e46083b81987');
         chai_1.expect(chain_1.getExplorerAddressLink(address, src_1.ChainId.Fantom)).to.eq('https://ftmscan.com/address/0xC7095A52C403ee3625Ce8B9ae8e2e46083b81987');
-        chai_1.expect(chain_1.getExplorerAddressLink(address, src_1.ChainId.Avalanche)).to.eq('https://cchain.explorer.avax.network/address/0xC7095A52C403ee3625Ce8B9ae8e2e46083b81987');
+        chai_1.expect(chain_1.getExplorerAddressLink(address, src_1.ChainId.Avalanche)).to.eq('https://snowtrace.io/address/0xC7095A52C403ee3625Ce8B9ae8e2e46083b81987');
     });
     it('getExplorerTransactionLink', function () {
         var tx = '0x5d53558791c9346d644d077354420f9a93600acf54eb6a279f12b43025392c3a';
@@ -95,7 +95,7 @@ describe('Chain helpers', function () {
         chai_1.expect(chain_1.getExplorerTransactionLink(tx, src_1.ChainId.Moonriver)).to.eq('https://blockscout.moonriver.moonbeam.network/tx/0x5d53558791c9346d644d077354420f9a93600acf54eb6a279f12b43025392c3a/internal-transactions');
         chai_1.expect(chain_1.getExplorerTransactionLink(tx, src_1.ChainId.Palm)).to.eq('https://explorer.palm.io/tx/0x5d53558791c9346d644d077354420f9a93600acf54eb6a279f12b43025392c3a');
         chai_1.expect(chain_1.getExplorerTransactionLink(tx, src_1.ChainId.Fantom)).to.eq('https://ftmscan.com/tx/0x5d53558791c9346d644d077354420f9a93600acf54eb6a279f12b43025392c3a');
-        chai_1.expect(chain_1.getExplorerTransactionLink(tx, src_1.ChainId.Avalanche)).to.eq('https://cchain.explorer.avax.network/tx/0x5d53558791c9346d644d077354420f9a93600acf54eb6a279f12b43025392c3a');
+        chai_1.expect(chain_1.getExplorerTransactionLink(tx, src_1.ChainId.Avalanche)).to.eq('https://snowtrace.io/tx/0x5d53558791c9346d644d077354420f9a93600acf54eb6a279f12b43025392c3a');
     });
 });
 //# sourceMappingURL=chain.test.js.map

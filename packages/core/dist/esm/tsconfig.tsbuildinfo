@@ -1244,7 +1244,7 @@
         "affectsGlobalScope": false
       },
       "../../src/helpers/chain.ts": {
-        "version": "36a6ae468c98467e42ec082061c25adb3d4fdfe63d30920aeb213d2fb7de52b0",
+        "version": "c8de6918e2fb53af9924a5bea2eb9b80969cc9e22494e65607849cfbd84e1621",
         "signature": "6684f1966af11151415283ad4d6da607b004bd434ba8d77a0e8842f260fa5a77",
         "affectsGlobalScope": false
       },
@@ -1499,7 +1499,7 @@
         "affectsGlobalScope": false
       },
       "../../test/helpers/chain.test.ts": {
-        "version": "452aa3557e80adb5c96c1b2486b32b5f566ea9b75ed3d34b8fa83189aae9c897",
+        "version": "a1dbc2d815f90012d06f7ebcd84cce1ce4844dbb3f5edd83d5c9e8ec7d56c389",
         "signature": "eee3ddbe429edd4d9f3940717e3c72aa649fc59610556509aa054da9927ff69b",
         "affectsGlobalScope": false
       },
